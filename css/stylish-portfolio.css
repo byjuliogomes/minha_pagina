@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-xl {
@@ -93,16 +94,40 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
-  font-size: 4rem;
+  color:  #342ead;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
+  text-align: left;
+
+}
+
+.seta-baixo:after{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  width: 0;
+  height: 0;
+
+  border-left: 10px  solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #f2a51a;
+}
+
+.masthead h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  text-align: left;
+  font-size: medium;
+  width: 80%;
 }
 
 @media (min-width: 992px) {
@@ -123,7 +148,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #342ead;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -146,7 +171,7 @@ h6 {
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  background: #f2a51a;
 }
 
 .sidebar-nav li a:active,
@@ -186,8 +211,8 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  color: #f2a51a;
+  background: transparent;
   line-height: 50px;
   z-index: 999;
 }
@@ -314,11 +339,11 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #f2a51a;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #f2a51a;
 }
 
 .btn-primary {
@@ -353,7 +378,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #342ead !important;
 }
 
 .text-primary {
