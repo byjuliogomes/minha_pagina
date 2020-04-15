@@ -98,6 +98,7 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
 }
 
 .masthead h1 {
@@ -113,7 +114,7 @@ h6 {
   content: "";
   display: inline-block;
   vertical-align: middle;
-  margin-right: 20px;
+  margin-right: 50px;
   width: 0;
   height: 0;
 
@@ -127,7 +128,7 @@ h6 {
   color: white;
   text-align: left;
   font-size: medium;
-  width: 80%;
+  width: 70%;
 }
 
 @media (min-width: 992px) {
